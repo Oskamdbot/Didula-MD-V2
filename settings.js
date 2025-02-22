@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID === undefined ? 'put your session id' : process.env.SESSION_ID,
+    SESSION_ID: process.env.SESSION_ID === undefined ? 'PRABATH-MD~iBlGgJLL#sPb9K2moRQJu38iE_8XBsrV-xuA-lsSp-NPRQjBdB-Y' : process.env.SESSION_ID,
     PREFIX: process.env.PREFIX || '.',
     FOOTER: process.env.FOOTER || "*✦𝐃𝐢𝐝𝐮𝐥𝐚 𝐌𝐃 𝐕𝟐✦*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/za6ytm.jpg",
@@ -22,7 +22,7 @@ HEART_REACT: process.env.HEART_REACT || 'false',
     ANTI_DELETE: process.env.ANTI_DELETE === undefined ? "false" : process.env.ANTI_DELETE,
     ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
     READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
-    RECORDING: process.env.RECORDING === undefined ? "false" : process.env.RECORDING,
+    RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
     AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-    AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "false" : process.env.AUTO_SONG_SENDER
+    AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "true" : process.env.AUTO_SONG_SENDER
 };
